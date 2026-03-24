@@ -5,7 +5,6 @@ public abstract class Piece {
 	private boolean couleur;
 	private boolean dejaJoue;
 	
-	
 	public boolean getCouleur() {
 		return couleur;
 	}
