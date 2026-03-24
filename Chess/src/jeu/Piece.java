@@ -5,6 +5,7 @@ public abstract class Piece {
 	private boolean couleur;
 	private boolean dejaJoue;
 	
+	
 	public boolean getCouleur() {
 		return couleur;
 	}
@@ -22,7 +23,6 @@ public abstract class Piece {
 	}
 	
 	public abstract void deplacement();
-	public abstract void prendre();
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
